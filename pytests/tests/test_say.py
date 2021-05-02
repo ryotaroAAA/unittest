@@ -1,4 +1,4 @@
-from main.say import Foo,Hoge
+from src.say import Foo,Hoge
 
 def test_foo_say():
     assert Foo().say() == 'foo'
